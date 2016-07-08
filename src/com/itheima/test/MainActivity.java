@@ -1,0 +1,33 @@
+package com.itheima.test;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class MainActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        System.out.println("我老张先写点代码!!!!");
+        System.out.println("我是老王， 我也写代码！！！");
+        System.out.println("我老张是大牛, 我代码没有bug, 嘿嘿嘿!");
+        System.out.println("我老王， 我住你们家隔壁。 嘎嘎噶！");
+        System.err.println("我老张平常没事去老王家坐坐!");
+        
+        
+        // 哈哈哈哈, 
+		// 获取了锁,并修改了文件
+		// laowang获取了锁,并修改了文件
+    }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+    
+}
