@@ -16,10 +16,6 @@ public class MainActivity extends Activity {
         System.out.println("我老王， 我住你们家隔壁。 嘎嘎噶！");
         System.err.println("我老张平常没事去老王家坐坐!");
         
-        
-        // 哈哈哈哈, 
-		// 获取了锁,并修改了文件
-		// laowang获取了锁,并修改了文件
     }
 
 
